@@ -16,27 +16,14 @@ These operations reflect the core LIFO behavior of a stack and help demonstrate 
 
 Getting Started: Requirements:
 
-Python 3 installed on your machine.
-You can check your Python version with:
+To use this project, you’ll need:
 
-bash
-Copy
-Edit
-python --version
-Installation
-To download and run the code:
+. Python 3 installed on your computer
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/stack-python.git
-cd stack-python
-Running the Program
+. A way to run Python scripts (any basic code editor or IDE will work)
 
-Once you're in the project folder, run the Python script with:
+. Familiarity with how to open and run Python files
 
-bash
-Copy
-Edit
-python stack.py
-The script will show how items are pushed onto and popped from the stack, demonstrating basic stack operations using simple list logic.
+. If you don’t have Python installed, you can download it from the official Python website:
+  https://www.python.org/downloads/
+
