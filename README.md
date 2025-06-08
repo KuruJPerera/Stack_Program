@@ -1,29 +1,75 @@
-Stack in Python:
 
-This project showcases a simple but important data structure known as a stack. A stack follows the Last-In-First-Out (LIFO) principle, meaning the last item added is the first one to be removed. It’s commonly used in applications like undo features, expression parsing, and managing function calls.
+# Stack Implementation in Python
 
-What is a Stack?
+This project demonstrates a basic stack data structure implemented using Python's built-in `list` type. A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle—meaning the last item added is the first one removed.
 
-A stack is a linear data structure where elements are added and removed from the top only. You "push" an item onto the stack to add it, and "pop" it to remove it. This behavior mimics real-life stacks — like plates or boxes — where only the topmost item is accessible.
-Stacks are widely used in programming due to their simplicity and usefulness. In Python, they are often implemented using lists.
+---
 
-How the Stack Works:
+## What is a Stack?
 
-This script defines two main operations:
-push(stack, item): Adds an item to the top of the stack using Python’s append() method.
-pop(stack): Removes and returns the top item using pop(). If the stack is empty, it returns None.
-These operations reflect the core LIFO behavior of a stack and help demonstrate how the structure works.
+A stack is like a pile of plates — you add to the top, and remove from the top. It supports two main operations:
 
-Getting Started: Requirements:
+- **Push**: Add an item to the top of the stack
+- **Pop**: Remove and return the top item from the stack
 
-To use this project, you’ll need:
+Stacks are commonly used in programming for undo mechanisms, parsing expressions, and tracking function calls.
 
-. Python 3 installed on your computer
+---
 
-. A way to run Python scripts (any basic code editor or IDE will work)
+## How It Works
 
-. Familiarity with how to open and run Python files
+The script includes two main functions:
 
-. If you don’t have Python installed, you can download it from the official Python website:
-  https://www.python.org/downloads/
+- `push(stack, item)`: Adds `item` to the top of the stack
+- `pop(stack)`: Removes and returns the top item. Returns `None` if the stack is empty.
 
+The stack itself is represented by a standard Python list.
+
+---
+
+## Example Usage
+
+```python
+stack = []
+push(stack, 10)
+push(stack, 20)
+push(stack, 30)
+
+print("Stack after pushes:", stack)
+# Output: Stack after pushes: [10, 20, 30]
+
+print("Popped:", pop(stack))
+# Output: Popped: 30
+
+print("Stack after pop:", stack)
+# Output: Stack after pop: [10, 20]
+```
+
+---
+
+## Getting Started
+
+### Requirements
+
+- Python 3
+
+This script requires no external packages. It runs entirely with built-in Python functionality.
+
+---
+
+## Running the Program
+
+1. Save the code to a file (e.g., `stack.py`)  
+2. Run it using:
+   ```bash
+   python stack.py
+   ```
+
+You’ll see how items are added and removed from the stack.
+
+---
+
+## Notes
+
+- This is a basic stack example meant for learning purposes.
+- For more advanced stack behavior, consider using the `collections.deque` class or creating a class-based stack implementation.
