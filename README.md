@@ -68,8 +68,3 @@ This script requires no external packages. It runs entirely with built-in Python
 You’ll see how items are added and removed from the stack.
 
 ---
-
-## Notes
-
-- This is a basic stack example meant for learning purposes.
-- For more advanced stack behavior, consider using the `collections.deque` class or creating a class-based stack implementation.
